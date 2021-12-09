@@ -1,0 +1,4 @@
+.snakemake
+*.tex
+*.log
+Results/
