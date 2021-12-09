@@ -6,7 +6,7 @@ autor: "Emrah Kırdök, Ph. D."
 
 # Introduction
 
-The purpopse of this repository is to give a clear explanation on how we maintain our projects.
+The purpose of this repository is to give a clear explanation on how we maintain our projects.
 
 Every project in Kırdöklab start it's live with a project folder that is essentially a git repository. We deposit all of our *Scripts*, *Inputs*, *Results*, *Documents* in this folder. Once we populate the folder with the essential information, then we create a GitHub repository and push our changes like this.
 
@@ -32,14 +32,14 @@ Once you populated your project with the essential information, create a github 
 
 ```
 
-git remote add origin 
+git remote add origin
 ```
 
-## Explanation of the folder strycter
+## Explanation of the folder structure
 
-Every bioinformaitc project should have essential folders to contain input data, scripts, outputs and necessary documentation. Proper organisation of these information would enable a much simpler workflow.
+Every bioinformaitc project should have essential folders to contain input data, scripts, outputs and necessary documentation. Proper organization of these information would enable a much simpler workflow.
 
-A README file generally explains the project, and describes using scripts, input files, and output files. Furthermore, a bioinformatic project should also contain a script that organises the workflow. In Kırdöklab, we are using Snakemake workflow tool. Depending on the project, there could be one or more Snakemake workflows. 
+A README file generally explains the project, and describes using scripts, input files, and output files. Furthermore, a bioinformatic project should also contain a script that organizes the workflow. In Kırdöklab, we are using Snakemake workflow tool. Depending on the project, there could be one or more Snakemake workflows. 
 
 Here is the folder structure:
 
@@ -53,4 +53,4 @@ Here is the folder structure:
 
 ## Helper scripts
 
-There is a small script that creates this reposity. Also, there will be several small sciripts that 
+There is a small script that creates this reposity. Also, there will be several small sciripts that
