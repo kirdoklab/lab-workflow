@@ -2,3 +2,5 @@
 *.tex
 *.log
 Results/
+.Rproj.user
+*Rproj
