@@ -1,0 +1,9 @@
+name: workflow
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - r
+  - r-essentials
+  - snakemake-minimal

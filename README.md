@@ -72,3 +72,21 @@ Here is the folder structure we prefer to use:
 **Results** folder contains the ouputs of these scripts.
 
 **Docs:** The documentation information will go in this folder. Generally this folder will contain images, dot files and other supplenetary information. Also information related to papers, posters and reports will go here.
+
+## Lab book
+
+This repository is planned to be a lab book, that conaints everything that is needed to undestand the worklfow.
+
+First, create the environment that is needed to compile the report.
+
+```
+mamba env create --file environment.yml
+mamba activate workflow
+
+```
+
+Then, run the `snakemake` workflow like this:
+
+```
+snakemake -j1
+```
