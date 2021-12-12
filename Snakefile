@@ -1,12 +1,24 @@
 
+MD = ["README.md", "Docs/our-workflow.md"]
+
+print(MD)
+
 OUTNAME = "Book"
 
 rule compile:
     input:
-        "README.md"
+        "Docs/{OUTNAME}.md"
     output:
-        "{OUTNAME}.pdf"
+        "Docs/{OUTNAME}.pdf"
     shell:
         """
-        cat {input} | pandoc -s --css Docs/templates/css/pandoc.css -o {wildcards.OUTNAME}.html ; wkhtmltopdf {wildcards.OUTNAME}.html {output}
+        cd Docs; cat {wildcards.OUTNAME}.md | pandoc -s --css templates/css/pandoc.css -o {wildcards.OUTNAME}.html ; wkhtmltopdf {wildcards.OUTNAME}.html {wildcards.OUTNAME}.pdf; cd ..
         """
+
+rule combine:
+    input:
+        MD
+    output:
+        "Docs/{OUTNAME}.md"
+    shell:
+        "cat {input} > {output}"
