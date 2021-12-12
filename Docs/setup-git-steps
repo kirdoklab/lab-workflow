@@ -1,0 +1,5 @@
+Git ve Github birbirinden farklı uygulamalardır.
+Git'in görevi metin dosyalarındaki yapılan değişiklikleri takip etmek ve yapılan bu değişiklikleri bir veri içerisinde saklamaktır.
+Github ise, bu değişikliklerin internet üzerinden saklandığı platformdur.
+İlk olarak github üzerinde açılmış bir repository’i bilgisayara kaydetmek için klonlama işlemi yapılır. Github üzerinden bu repositoriyi açıp ‘Code’ kısmından bağlantı kopyalanır.
+Sonrasında github desktop’ta ‘file’ kısmından ‘clone repository’ den bağlantıyı yapıştırarak klonlama işlemi yapılır. Hangi dosyaya klonlandığını bilmek önemli bir noktadır.
