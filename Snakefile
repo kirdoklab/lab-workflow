@@ -12,7 +12,7 @@ rule compile:
         "Docs/{OUTNAME}.pdf"
     shell:
         """
-        cd Docs; cat {wildcards.OUTNAME}.md | pandoc -s --css templates/css/pandoc.css -o {wildcards.OUTNAME}.html ; wkhtmltopdf {wildcards.OUTNAME}.html {wildcards.OUTNAME}.pdf; cd ..
+        cd Docs; cat {wildcards.OUTNAME}.md | pandoc -s --toc --css templates/css/pandoc.css -o {wildcards.OUTNAME}.html ; wkhtmltopdf {wildcards.OUTNAME}.html {wildcards.OUTNAME}.pdf; cd ..
         """
 
 rule combine:
