@@ -13,10 +13,10 @@ body {
   color: #444;
   font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
   font-size: 12px;
-  line-height: 1.7;
+  line-height: 1.4;
   padding: 1em;
   margin: auto;
-  max-width: 42em;
+  max-width: 46em;
   background: #fefefe;
 }
 
@@ -66,7 +66,7 @@ p {
 }
 
 img {
-  max-width: 100%;
+  max-width: 40%;
 }
 
 h1, h2, h3, h4, h5, h6 {
