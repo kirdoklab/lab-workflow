@@ -3,8 +3,6 @@ title: "Kırdöklab project workflow"
 
 ---
 
-# Introduction
-
 The purpose of this repository is to give a clear explanation on how we maintain our projects.
 
 Essentially, we aim to follow these guideleines in this perspective:
@@ -79,7 +77,7 @@ This repository is planned to be a lab book, that conaints everything that is ne
 
 First, create the environment that is needed to compile the report.
 
-```
+```bash
 mamba env create --file environment.yml
 mamba activate workflow
 
@@ -87,6 +85,6 @@ mamba activate workflow
 
 Then, run the `snakemake` workflow like this:
 
-```
+```bash
 snakemake -j1
 ```
