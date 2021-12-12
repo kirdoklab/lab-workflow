@@ -1,7 +1,12 @@
+
+OUTNAME = "Book"
+
 rule compile:
     input:
         "README.md"
     output:
-        "Results/Book.html"
+        "{OUTNAME}.pdf"
     shell:
-        "pandoc {input} -o {output}"
+        """
+        cat {input} | pandoc -s --css Docs/templates/css/pandoc.css -o {wildcards.OUTNAME}.html ; wkhtmltopdf {wildcards.OUTNAME}.html {output}
+        """
