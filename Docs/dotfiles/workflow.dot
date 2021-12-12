@@ -1,0 +1,48 @@
+digraph G {
+    splines="FALSE";
+    
+
+    /* Branchs */
+    main [label="main", shape="square"];
+    devel [label = "devel", shape = "square"];
+    feature [label = "feature\nbranch", shape = "square"];
+    
+    /* set branch rank */
+    main -> devel -> feature [style =  invis];
+
+    /* Commits */
+    commit0 [label = "initial\ncommit"];
+    commit1 [label = "commit1"];
+    commit2 [label = "commit2"];
+    commit3 [label = "commit3"];
+    commit4 [label = "commit4"];
+    commit5 [label = "commit5"];
+    commit6 [label = "merge\ninto\ndevel"];
+    commit8 [label = "merge\ninto\nmain"];
+    
+    /* main branch */
+    main -> commit0 [style = invis];
+
+    /* create devel branch*/
+    commit0 -> commit1 [label = "create\ndevel branch"]; 
+    /* devel branch */
+    devel -> commit1 [style=invis] ;
+    commit1 -> commit2 ;
+    commit2 -> commit6 [style = dashed];
+    
+    /* create feature branch */
+    commit2-> commit3 [label = "create\nfeature branch"]
+    
+    /* feature branch */
+    feature -> commit3 [style = invis];
+    commit3 -> commit4 -> commit5;
+
+    /* merge feature into devel */
+    commit5 -> commit6;
+
+    /* merge devel into main*/
+    commit6 -> commit8;
+    commit0 -> commit8 [style = dashed];
+    /* Ranks */
+    { rank=same; main; devel; feature };
+}
