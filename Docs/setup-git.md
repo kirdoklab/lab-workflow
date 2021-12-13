@@ -21,7 +21,7 @@ Adımlar takip edileirek program yüklenir.
 
 Github progrmaı açılır, vve Fİle sekmesi üstünden clone repositiry tıklanır:
 
-![Klonlama](Docs/images/github-clone.png)
+![Klonlama](images/github-clone.png)
 
 Git ve Github birbirinden farklı uygulamalardır. Git'in görevi metin dosyalarındaki yapılan değişiklikleri takip etmek ve yapılan bu değişiklikleri bir veri içerisinde saklamaktır.
 
