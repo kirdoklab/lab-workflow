@@ -2,7 +2,7 @@
 
 Bu döküman, git sistemi kurmak ve git sistemi üzerinde çalışmak için gerekli bilgiler içermektedir.
 
-Bu döküman aşağıdaki başlıklardan oluşmaktadır:
+Bu döküman aşağıdaki başlıklardan oluşmaktadır
 
 1. Github nedir ve nasıl yüklenir?
 2. Repository(depo) nedir?
@@ -34,7 +34,7 @@ Github üzerinde açılmış bir repository’i bilgisayara kaydetmek için klon
 
 + Github üzerinden bu repositoriyi açıp ‘Code’ kısmından bağlantı kopyalanır.
 
-![kopyalama adımları](images/setup-git-figure1.png)
+![klonlama adımları](images/setup-git-figure1.png)
 
 + Github desktop’ta ‘file’ kısmından ‘clone repository’ den bağlantıyı yapıştırarak klonlama işlemi yapılır.
 
@@ -54,7 +54,11 @@ Proje üzerinde birden fazla kişi çalıştığı zaman, devel dalına, proje i
 
 + 'devel' dalına gelerek önce en güncel değişiklikler alınır, 'new branch' kısmından bir branch adı yazılır ve branch oluşturulur.
 
+![branch oluşturma adımları](images/setup-git-figure4.png)
+
 + 'Docs' kısmına geldikten sonra  'File' kısmından 'new file' seçilerek bir markdown sayfası açılır.
+
+![branch oluşturma adımları](images/setup-git-figure5.png)
 
 + Bu kısma eklenmek istenilenler eklendikten sonra 'Ctrl S' yapılır ve bu dal 'Docs' klasörü içerisine kaydedilir. Bu kaydedilen dal Github üzerinde 'Docs' kısmında görüntülenebilmektedir.
 
@@ -62,19 +66,27 @@ Proje üzerinde birden fazla kişi çalıştığı zaman, devel dalına, proje i
 
 Eğer branch silmek istenirse veya bu branchla iş biterse ‘github desktop’ tan branch üzerine sağ tıklayarak ‘delete’ kısmından silinir.
 
+![branch silme](images/setup-git-figure6.png)
+
 ## 5. Dosyalarda yapılan değişiklikler nasıl commit(gönderi) edilir?
 
 Branch içerisinde yapılan değişikliklerin saklanması için commit edilmesi gerekmektedir.
 
 + Yapılan değişiklikler 'Ctrl S' ile kaydedildikten sonra 'Unstaged Changes-Docs\' kısmından yapılan değişikliklere bakılır.
 
+![commit etme](images/setup-git-figure7.png)
+
 + 'stage file' yaptıktan sonra 'commit message' kısmına yapılan değişiklikler yazılır.
+
+![commit etme](images/setup-git-figure8.png)
 
 Ve böylelikle değişiklikler commit edilmiş olur.
 
 ## 6. Değişiklikler nasıl push edilir?
 
 Branch üzerinde yapılan değişikliler commit edildikten sonra, proje üzerinde çalışan diğer bireylerin de görebilmesi için 'publishing'(yayınlama) yapılır.
+
+![push](images/setup-git-figure9.png)
 
 Bu branch üzerinde tekrar ve tekrar değişiklik yapıldığı durumlarda ('Ctrl S' , 'Unstaged Changes-Docs\' ,  'stage file' , 'commit message' , 'publishing') bu adımlar tekrar edilir.
 
@@ -87,3 +99,9 @@ Pull request, projede çalışan kişilerin, branch üzerinde yaptığı son de�
 GitHub’da pull request yapmak için bu adımlar takip edilir:
 
 Pull requests -> New pull request -> Example comparisons bölümünde üzerinde çalışılan branch seçilir.
+
+![pull requests](images/setup-git-figure10.png)
+
+![pull requests](images/setup-git-figure11.png)
+
+![pull requests](images/setup-git-figure12.png)
