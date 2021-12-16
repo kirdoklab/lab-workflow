@@ -14,17 +14,17 @@ Bu döküman aşağıdaki başlıklardan oluşmaktadır:
 
 ## 1. Github nedir ve nasıl yüklenir?
 
-Git ve Github birbirinden farklı uygulamalardır. Git'in görevi metin dosyalarındaki yapılan değişiklikleri takip etmek ve yapılan bu değişiklikleri bir veri içerisinde saklamaktır.
+Git ve Github birbirinden farklı uygulamalardır. Git'in görevi metin dosyalarındaki yapılan değişiklikleri takip etmek ve yapılan bu değişiklikleri bir veri yapısı içerisinde saklamaktır.
 
-Github ise, bu değişikliklerin internet üzerinden saklandığı platformdur.Bu platformu kullanabilmek için github yüklenmelidir.
+Github ise, bu değişikliklerin internet üzerinden saklandığı platformdur. Bu platformu kullanabilmek için github yüklenmelidir.
 
-Github yüklemek için internet sitesine [buradan](https://desktop.github.com/) ulaşılır.
+Github yüklemek için internet sitesine [GitHub internet sitesinden](https://desktop.github.com/) ulaşılır.
 
-Github, 'Atom' programı üzerinden de kullanılabilir. Bu programı indirebilmek için de siteye [buradan](https://atom.io/) ulaşılır.
+Github, 'Atom' programı üzerinden de kullanılabilir. Bu programı indirebilmek için de siteye [Atom internet sitesinden](https://atom.io/) ulaşılır.
 
 ## 2. Repository(depo) nedir?
 
-Üzerinde çalışılan projenin dosyaları, repository içerisinde depolanır. Bu projeyle alakalı her döküman burada depo edilir.
+Üzerinde çalışılan projenin dosyaları, repository içerisinde depolanır. Bu projeyle alakalı her döküman burada depolanır.
 
 Yeni projeye başlamak için Github üzerinden 'Create a repository' veya 'Open a Project' den başlayarak adımlar takip edilir.  
 
@@ -48,7 +48,7 @@ Proje üzerinde birden fazla kişi çalıştığı zaman, devel dalına, proje i
 
 ### Yeni bir branch oluşturmak için
 
-+ 'devel' dalına gelerek, 'new branch' kısmından bir branch adı yazılır ve branch oluşturulur.
++ 'devel' dalına gelerek önce en güncel değişiklikler alınır, 'new branch' kısmından bir branch adı yazılır ve branch oluşturulur.
 
 + 'Docs' kısmına geldikten sonra  'File' kısmından 'new file' seçilerek bir markdown sayfası açılır.
 
@@ -56,7 +56,7 @@ Proje üzerinde birden fazla kişi çalıştığı zaman, devel dalına, proje i
 
 ### Oluşturulan branch'ı silmak için
 
-Eğer branch silmek istenirse veya bu branchla iş biterse ‘gethub desktop’ tan branch üzerine sağ tıklayarak ‘delete’ kısmından silinir.
+Eğer branch silmek istenirse veya bu branchla iş biterse ‘github desktop’ tan branch üzerine sağ tıklayarak ‘delete’ kısmından silinir.
 
 ## 5. Dosyalarda yapılan değişiklikler nasıl commit(gönderi) edilir?
 
