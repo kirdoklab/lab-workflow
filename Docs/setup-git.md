@@ -1,8 +1,8 @@
-# Installing Git
+# How to Set Up Git
 
 This document contains the necessary information to set up and work on the Git system.
 
-This document consists of the following titles;
+This document consists of the following titles:
 
 1. What is Github and how to install it?
 2. What is Repository?
