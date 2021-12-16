@@ -5,7 +5,7 @@
 Bu döküman, git sistemi kurmak ve git sistemi üzerinde çalışmak için gerekli bilgiler içermektedir.
 
 Bu döküman aşağıdaki başlıklardan oluşmaktadır:
-1. Github nedir ve nasıl yüklenir?
+1. Github nedir doğru ve nasıl yüklenir?
 2. Repository(depo) nedir?
 3. Bir repository bilgisayara nasıl klonlanır?
 4. Nasıl yeni bir dal (branch) oluşturulur ve bu dal nasıl silinir?
