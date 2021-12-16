@@ -38,6 +38,10 @@ Github üzerinde açılmış bir repository’i bilgisayara kaydetmek için klon
 
 + Github desktop’ta ‘file’ kısmından ‘clone repository’ den bağlantıyı yapıştırarak klonlama işlemi yapılır.
 
+![klonlama adımları](images/setup-git-figure2.png)
+
+![klonlama adımları](images/setup-git-figure3.png)
+
 Hangi dosyaya klonlandığını bilmek önemli bir noktadır. Çünkü projeye ait bütün dosyalar bu klasör içerisine kaydedilecektir. Bu işlem sonucunda repository bilgisayara klonlanmış olacaktır.
 
 ## 4. Nasıl yeni bir dal (branch) oluşturulur ve bu branch nasıl silinir?
