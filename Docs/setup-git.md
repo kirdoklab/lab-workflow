@@ -33,7 +33,8 @@ Yeni projeye başlamak için Github üzerinden 'Create a repository' veya 'Open 
 Github üzerinde açılmış bir repository’i bilgisayara kaydetmek için klonlama işlemi yapılır.
 
 + Github üzerinden bu repositoriyi açıp ‘Code’ kısmından bağlantı kopyalanır.
-![kopyalama adımları](lab-workflow/Docs/images/ekrangoruntusu1.png)
+
+![kopyalama adımları](images/setup-git-figure1.png)
 
 + Github desktop’ta ‘file’ kısmından ‘clone repository’ den bağlantıyı yapıştırarak klonlama işlemi yapılır.
 
