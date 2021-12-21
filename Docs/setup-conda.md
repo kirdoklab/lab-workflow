@@ -117,6 +117,7 @@ To start an R session as installed by Bioconda,
 ~/miniconda3/envs/nameoftheenvironment/bin/R
 ```
 
+OLD PARTS;
 
 Install mamba. This is the tool that we are going to use to download packages:
 
