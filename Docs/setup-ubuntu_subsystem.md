@@ -32,3 +32,7 @@ In the Windows search bar, type 'features' to bring up the Turn Windows Features
 Select OK and you will be prompted to restart Windows.
 
 ![Adsız1](https://user-images.githubusercontent.com/90481141/146906171-a93df0e8-8863-4460-ab48-458064fef8c7.png)
+
+Finally, you should choose the Ubuntu (WSL) option from the Visual Studio Code terminal options. 
+## Congratulations!
+Congratulations, you've successfully completed this guide!
