@@ -23,6 +23,7 @@ Windows Subsystem for Linux (WSL) is an optional feature on Windows 10. You can 
 ### Windows Features dialog
 In the Windows search bar, type 'features' to bring up the Turn Windows Features on and off dialog. Scroll down and check Windows Subsystem for Linux.
 ![Adsız](https://user-images.githubusercontent.com/90481141/146906134-fb2751d3-b044-4f20-819a-ec70e0839147.png)
+
 Select OK and you will be prompted to restart Windows.
 
 ![Adsız1](https://user-images.githubusercontent.com/90481141/146906171-a93df0e8-8863-4460-ab48-458064fef8c7.png)
