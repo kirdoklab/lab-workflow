@@ -1,9 +1,11 @@
-# Ubuntu Subsystem İnstallation Guide 
-
+# Ubuntu Subsystem İnstallation Guide
+Welcome to ubuntu Subsystem installation guide. This guide walks you through ubuntu terminal installation, enabling Windows Subsystem for Linux (WSL) and running Visual Studio Code in WSL using Remote - WSL extension.
+## Prerequisites
+You need Visual Studio Code installed.
 ## Install a Linux distro
-
 You can install Linux distributions from the Microsoft Store. You can use the store app, or search for a Linux distro in the Windows search bar. Choose the Linux distribution you want to install (for example Ubuntu) and follow the prompts.
-
+## Install the extension
+The Remote - WSL extension enables you to run Visual Studio Code within the Windows Subsystem for Linux (WSL).
 ![SharedScreenshot(0)](https://user-images.githubusercontent.com/90481141/146905824-a48ea7bc-61cc-4385-97e5-c4f9b313a90b.jpg)
 Select Install.
 
