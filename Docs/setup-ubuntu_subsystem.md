@@ -6,6 +6,7 @@ You can install Linux distributions from the Microsoft Store. You can use the st
 
 ![SharedScreenshot(0)](https://user-images.githubusercontent.com/90481141/146905824-a48ea7bc-61cc-4385-97e5-c4f9b313a90b.jpg)
 Select Install.
+
 And when done, select Launch to get started. This will open a Linux terminal and complete the installation. You'll need to create a user ID and password since you are setting up a full Linux instance. You are now running Linux on Windows.
 ![SharedScreenshot2](https://user-images.githubusercontent.com/90481141/146905879-f837355c-1350-4628-984b-efea503d10e4.jpg)
 
