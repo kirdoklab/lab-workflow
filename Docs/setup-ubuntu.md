@@ -20,8 +20,11 @@ At this stage, you first need to create a USB bootable drive. You will need a US
 ![Opera Anlık Görüntü_2021-12-19_190420_rufus ie](https://user-images.githubusercontent.com/90481141/146687685-75c3b8f1-8582-444d-ad30-7a30a08c97fb.png)
 
 Set the USB as the device you wish to write to.
+
 In the Boot Selection drop-down, click Disk or ISO Image.
+
 Click the Select button to the right.
+
 Browse and select the .iso Ubuntu file you downloaded earlier.
 
 ![SharedScreenshot](https://user-images.githubusercontent.com/90481141/146687692-42177491-f635-4c66-8153-dc15fda05082.jpg)
