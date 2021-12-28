@@ -15,18 +15,11 @@ First please install conda:
 
 For Linux;
 
-To install conda, first go to the website (https://docs.conda.io/en/latest/miniconda.html#linux-installers) and choose the Python version.
-
-Then open the terminal and go to Downloads. To make the file executable use the following command;
 
 ```
-chmod +x
+wget https://repo.anaconda.com/miniconda/Miniconda3-py39_4.10.3-Linux-x86_64.sh 
 ```
-Then run the file;
 
-```
-bash Miniconda3-latest-Linux-x86_64.sh
-```
 For Mac;
 
 ```
