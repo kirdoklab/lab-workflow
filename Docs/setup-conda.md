@@ -109,18 +109,3 @@ To start an R session as installed by Bioconda,
 ```
 ~/miniconda3/envs/nameoftheenvironment/bin/R
 ```
-
-OLD PARTS;
-
-Install mamba. This is the tool that we are going to use to download packages:
-
-```
-conda install -n base -c conda-forge mamba
-```
-
-Our first tool. The most important one. Snakemake:
-
-
-```
-mamba -c bioconda -c conda-forge snakemake-minimal
-```
