@@ -1,3 +1,3 @@
 # baslık
 
-hedehodo icerik degisiklik faan filan
+hedehodo icerik degilik faan filan
