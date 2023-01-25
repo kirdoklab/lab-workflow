@@ -1,0 +1,8 @@
+.snakemake
+*.tex
+*.log
+Results/
+.Rproj.user
+*Rproj
+*pdf
+*html
