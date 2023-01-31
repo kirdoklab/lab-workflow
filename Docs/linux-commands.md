@@ -46,3 +46,41 @@
 
 + rm komutu, verilen argümanı silmeye yarar ve **dikkatli kullanılması** gerekmektedir.
 
+## mkdir Komutu
+
++ mkdir komutu, dosya oluşturmak için kullanılır ve tek argüman gerektirir. 
+
+![mkdir komutu kullanımı](images/mkdir.png)
+
+## less Komutu
+
++ less komutu, cat komutu yerine kullanılabilecek, görsel açıdan ve okunma açısından daha kolay bir çıktı veren bir komuttur.
+
+![less komutu kullanımı](images/less.png)
+![Komutun uygulanmasından sonraki sonuç](images/less2.png)
+
+## head Komutu
+
++ head komutu, sadece 'head dosyadi' şeklinde kullanıldığında, dosyanın ilk 5 satırını verir fakat 'head -satirsayisi dosyaadi' şeklinde kullanıldığında, girilen satır sayısı kadar satırı gösterir.   
+
+![head komutu ve kullanımı](images/head.png)
+![head komutunu kullanarak belirli bir satır sayısını yazdırma](images/head2.png)
+
+## tail Komutu
+
++ tail komutu, sadece 'tail dosyadi' şeklinde kullanıldığında, dosyanın son 5 satırını verir fakat 'tail -satirsayisi dosyaadi' şeklinde kullanıldığında, girilen satır sayısı kadar sondan satırı gösterir
+
+![tail komutu ve kullanımı](images/tail.png)
+![tail komutunu kullanarak belirli bir satır sayısını yazdırma](images/tail2.png)
+
+## ">" Operatörü Kullanımı
+
++ ">" operatörü, ilk argümanda belirtilen bir dosyanın tamamını ya da belirli bir kısmını, 2. argümana aktarmaya yarar. 
+
+![> operatörü kullanımı](images/insertop.png)
+
+## grep Komutu
+
++ grep komutu bir dosyada belirli bir kelimeyi bulmak için kullanılır. Kullanmak için, 2 argüman gerekir 1.si aranacak kelime öbeği, 2.si ise arama yapılacak belgedir.
+
+![grep komutu kullanımı ve sonucu](images/grep.png)
